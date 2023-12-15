@@ -5,4 +5,4 @@ The file "scrapping_google_search.ipynb" contains code for performing a scrappin
 
 Having assembled a dataframe with these results I preprocess the content of the articles to prepare ir for a topic modeling. With "spacy", stopwords are eliminated and lemmatization achieved. Then I use CountVectorizer from sklearn to vectorize the content and finally I use the component LatentDirichletAllocation from sklearn.decomposition to perform the topic modeling.
 
-In this repository I also uploaded two html files containing the results from the topic modeling plotted by the library pyLDAvis. The two files correspond to two different media oulets, and are interesting to visualize how the media coverage focused on different aspects of drug trafficking.
+In this repository I also uploaded two html files containing the results from the topic modeling plotted by the library pyLDAvis. The two files correspond to two different media oulets (ellitoral; ellitoral.com / p12; pagina12.com.ar), and are interesting to visualize how the media coverage focused on different aspects of drug trafficking.
